@@ -1,0 +1,5 @@
+XSym
+0106
+110e992e36744e628ba9f4828011e8f6
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/i18n/sr-Cyrl.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

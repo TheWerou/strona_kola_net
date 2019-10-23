@@ -1,0 +1,5 @@
+XSym
+0106
+727ca285ed0d9fba64f932173d7d7c4d
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/select2.full.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

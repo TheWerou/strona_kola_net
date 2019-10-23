@@ -1,0 +1,5 @@
+XSym
+0104
+983b09e98cedb922b933ec35758e71da
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/i18n/zh-CN.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

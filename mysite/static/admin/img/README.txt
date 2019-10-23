@@ -1,0 +1,5 @@
+XSym
+0087
+41e517daf835582d8eb7bd421ef9b618
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/img/README.txt
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

@@ -1,0 +1,5 @@
+XSym
+0087
+69c100f691f6d70c31a61bf525e3cac2
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/collapse.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

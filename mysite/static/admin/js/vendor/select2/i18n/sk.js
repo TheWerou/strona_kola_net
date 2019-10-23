@@ -1,0 +1,5 @@
+XSym
+0101
+8aba59ee30e0b9c7da5265256b8079c3
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/i18n/sk.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

@@ -1,0 +1,5 @@
+XSym
+0101
+a6c5b6965fcca3edc29b3bdaf7747811
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/LICENSE.txt
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

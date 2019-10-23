@@ -1,0 +1,5 @@
+XSym
+0101
+4e9968dcf7208afe1ae949dec26fea16
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

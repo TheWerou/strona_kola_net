@@ -1,0 +1,5 @@
+XSym
+0101
+f913dc9b9d63f13506f72174b905dc24
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/i18n/ru.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

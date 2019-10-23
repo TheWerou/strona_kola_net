@@ -1,0 +1,5 @@
+XSym
+0101
+b7ad064db5ed55c35e711bb6aa965a66
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/i18n/km.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

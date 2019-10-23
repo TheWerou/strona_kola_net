@@ -1,0 +1,5 @@
+XSym
+0089
+1bff84b4484cce47ac2f795850f8b894
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/fonts/README.txt
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

@@ -1,0 +1,5 @@
+XSym
+0101
+9447ddda0cb5ca71b17da7eed40b03da
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/i18n/gl.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

@@ -1,0 +1,5 @@
+XSym
+0101
+07512d0cb05ae4716d812c3889f26cac
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/i18n/id.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

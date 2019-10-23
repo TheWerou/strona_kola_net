@@ -1,0 +1,5 @@
+XSym
+0095
+72bedd2dc046a75662c72a1d92d2e847
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/prepopulate_init.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

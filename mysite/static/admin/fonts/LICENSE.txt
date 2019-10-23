@@ -1,0 +1,5 @@
+XSym
+0090
+7122b7e0df0344e6fa64ede4ad9dc081
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

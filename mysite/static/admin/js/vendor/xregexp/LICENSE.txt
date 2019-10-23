@@ -1,0 +1,5 @@
+XSym
+0102
+0554dc8341b845a1c094a6a6b81a40af
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/LICENSE.txt
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

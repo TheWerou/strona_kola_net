@@ -1,0 +1,5 @@
+XSym
+0085
+49fed97da2db536992eceb4e305f01b3
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/urlify.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

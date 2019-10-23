@@ -1,0 +1,5 @@
+XSym
+0090
+b8de297e862de65d16b35d4d11bcd64f
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/jquery.init.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

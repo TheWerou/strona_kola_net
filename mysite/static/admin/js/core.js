@@ -1,0 +1,5 @@
+XSym
+0083
+4a13e9ee51e2c32990da43fbeb865976
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/core.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

@@ -1,0 +1,5 @@
+XSym
+0101
+eb8ff47786ddbe738e95a3543b726643
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/i18n/ko.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

@@ -1,0 +1,5 @@
+XSym
+0101
+6b1c04de3b9468e837cd90625838667e
+/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/vendor/select2/LICENSE.md
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
