@@ -5,6 +5,3 @@ class IndexView(TemplateView):
     template_name = "index.html"
 
 index_view = IndexView.as_view()
-
-
-
