@@ -1,0 +1,169 @@
+﻿{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block content %}
+		<main>
+			<section class="one">
+				<div class="container mb-4">
+					<header>
+						<h2 id="o_nas">O NAS</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Gravida dictum fusce ut placerat orci nulla pellentesque. Consequat interdum varius sit amet mattis vulputate enim. Nisl rhoncus mattis rhoncus urna. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Nec ullamcorper sit amet risus nullam eget felis eget. Tortor posuere ac ut consequat semper viverra. Ornare lectus sit amet est placerat in egestas. At risus viverra adipiscing at in. Tempus quam pellentesque nec nam aliquam sem et tortor consequat.</p>
+						<hr>
+					</header>
+				</div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-sm-6 col-md-3 col-xl-2">
+							<figure>
+								<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+								<figcaption>Zdjęcie</figcaption>
+							</figure>
+						</div>
+						<div class="col-sm-6 col-md-3 col-xl-2">
+							<figure>
+								<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+								<figcaption>Zdjęcie</figcaption>
+							</figure>
+						</div>
+					</div>
+					<div class="collapse dont-collapse-md" id="lista">
+						<div class="row justify-content-center">
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+							<div class="col-sm-6 col-md-3 col-xl-2">
+								<figure>
+									<div class="photo-zoom photo"><a href="#"><img src="{% static 'img_avatar.png' %}" class="img-fluid photo" alt="image"></a></div>
+									<figcaption>Zdjęcie</figcaption>
+								</figure>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-primary dont-collapse-btn-md mb-3" id='lista1' type="button" data-toggle="collapse" data-target="#lista" aria-expanded="false" aria-controls="lista">Pokaż więcej</button>
+				</div>
+			</section>
+			<!--
+			<section class="two">
+				<div class="container">
+					<header>
+						<h2 id="nasze_projekty">NASZE PROJEKTY</h2>+
+					</header>
+				</div>
+			</section>
+			<section class="one">
+				<div class="container">
+					<header>
+						<h2 id="wspolpraca">WSPÓŁPRACA</h2>+
+					</header>
+				</div>
+			</section>
+			-->
+			<section class="two">
+				<div class="container">
+					<h2 id="kontakt">KONTAKT</h2>
+					<div class="row pb-3 pt-3">
+						<div class="col-md-9 mb-md-0 mb-5">
+							<form>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="md-form mb-0">
+											<input type="text" id="contact-name" class="form-control" aria-label="Imię" placeholder="Imię">
+											<label for="contact-name" class="">Imię</label>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="md-form mb-0">
+											<input type="text" id="contact-surname" class="form-control" aria-label="Nazwisko" placeholder="Nazwisko">
+											<label for="contact-email" class="">Nazwisko</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="md-form mb-0">
+											<input type="text" id="contact-email" class="form-control" aria-label="Email" placeholder="Email">
+											<label for="contact-Subject" class="">Email</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="md-form">
+											<textarea id="contact-message" class="form-control md-textarea" rows="3" aria-label="Treść Wiadomości" placeholder="Treść Wiadomości"></textarea>
+											<label for="contact-message">Treść Wiadomości</label>
+										</div>
+									</div>
+								</div>
+							</form>
+							<div class="text-center text-md-left">
+								<input class="btn btn-outline-primary btn-md btn-block" type="submit" value="Wyślij">
+							</div>
+						</div>
+						<div class="col-md-3 text-center">
+							<ul class="list-unstyled mb-0">
+								<li>
+									<i class="material-icons">place</i>
+									<p>Koszalin</p>
+								</li>
+								<li>
+									<i class="material-icons">call</i>
+									<p>+ 01 234 567 89</p>
+								</li>
+								<li>
+									<i class="material-icons">email</i>
+									<p class="mb-0">contact@example.com</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<hr>
+					<h3 class="social-media"><a href="https://www.facebook.com/PKWEiI.NET/">Polub nas na Facebooku <i class="fab fa-facebook-square"></i></a></h3>
+				</div>
+			</section>
+		</main>
+{% endblock %}
