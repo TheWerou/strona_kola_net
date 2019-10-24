@@ -1,5 +1,8 @@
-XSym
-0090
-b8de297e862de65d16b35d4d11bcd64f
-/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/jquery.init.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+/*global django:true, jQuery:false*/
+/* Puts the included jQuery into our own namespace using noConflict and passing
+ * it 'true'. This ensures that the included jQuery doesn't pollute the global
+ * namespace (i.e. this preserves pre-existing values for both window.$ and
+ * window.jQuery).
+ */
+var django = django || {};
+django.jQuery = jQuery.noConflict(true);

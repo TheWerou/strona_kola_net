@@ -1,5 +1,3 @@
-XSym
-0089
-1bff84b4484cce47ac2f795850f8b894
-/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/fonts/README.txt
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+Roboto webfont source: https://www.google.com/fonts/specimen/Roboto
+WOFF files extracted using https://github.com/majodev/google-webfonts-helper
+Weights used in this project: Light (300), Regular (400), Bold (700)

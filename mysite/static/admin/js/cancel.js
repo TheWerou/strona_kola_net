@@ -1,5 +1,13 @@
-XSym
-0085
-0b49e9ff88fcea0b7004e47eda6f0403
-/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/cancel.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+(function($) {
+    'use strict';
+    $(function() {
+        $('.cancel-link').on('click', function(e) {
+            e.preventDefault();
+            if (window.location.search.indexOf('&_popup=1') === -1) {
+                window.history.back(); // Go back if not a popup.
+            } else {
+                window.close(); // Otherwise, close the popup.
+            }
+        });
+    });
+})(django.jQuery);

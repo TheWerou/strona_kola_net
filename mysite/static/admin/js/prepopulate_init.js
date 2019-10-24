@@ -1,5 +1,10 @@
-XSym
-0095
-72bedd2dc046a75662c72a1d92d2e847
-/usr/local/lib/python3.8/site-packages/django/contrib/admin/static/admin/js/prepopulate_init.js
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+(function($) {
+    'use strict';
+    var fields = $('#django-admin-prepopulated-fields-constants').data('prepopulatedFields');
+    $.each(fields, function(index, field) {
+        $('.empty-form .form-row .field-' + field.name + ', .empty-form.form-row .field-' + field.name).addClass('prepopulated_field');
+        $(field.id).data('dependency_list', field.dependency_list).prepopulate(
+            field.dependency_ids, field.maxLength, field.allowUnicode
+        );
+    });
+})(django.jQuery);

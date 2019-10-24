@@ -1,13 +1,88 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 {% load staticfiles i18n %}
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>{% block title %}{% trans "Default page name" %}{% endblock %}</title>
-</head>
-<body>
-<img src="{% static 'logo.png' %}"/>
-{% block content %}
-{% endblock %}
-</body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Grupa .NET Politechnika Koszalińska">
+		<meta name="keywords" content="Grupa .Net, Politechnika Koszalińska, Koło Naukowe">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+		<link rel="icon" href="{% static 'logo2.png' %}">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+		<title>{% block title %}{% trans ".NET Group" %}{% endblock %}</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script type="text/javascript" src="scroll_script.js"></script>
+		<script src="parallax.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+    <header class="parallax-window" data-parallax="scroll" data-image-src="{% static 'background.jpg' %}">
+			<nav class="navbar navbar-dark bg-menu navbar-expand-md pr-md-5 absolute">
+				<a class="navbar-brand" href="#">
+					<img src="{% static 'logo.png' %}" class="d-inline-block" height="40" alt="">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center mr-md-5" id="menu">
+					<ul class="navbar-nav">
+						<li class="nav-item ml-1 mr-1">
+							<a class="nav-link" href="#o_nas"><span class="nav-animation">O NAS</span></a>
+						</li>
+						<li class="nav-item ml-1 mr-1">
+							<a class="nav-link disabled" href="#nasze_projekty"><span class="nav-animation">NASZE PROJEKTY</span></a>
+						</li>
+						<li class="nav-item ml-1 mr-1">
+							<a class="nav-link disabled" href="#wspolpraca"><span class="nav-animation">WSPÓŁPRACA</span></a>
+						</li>
+						<li class="nav-item ml-1 mr-1">
+							<a class="nav-link" href="#kontakt"><span class="nav-animation">KONTAKT</span></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="container text-center first-title">
+				<div>
+					<h1 class="display-1 title1">Grupa .NET</h1>
+					<h1 class="display-1 title2" style="font-size: 2.5rem;">Politechnika Koszalińska</h1>
+				</div>
+			</div>
+		</header>
+        {% block content %}
+        {% endblock %}
+		<footer>
+			<div class="footer-copyright text-center py-3">© 2019 Copyright:
+				<a href="{% url 'index' %}">{% trans ".NET Group" %}</a>
+			</div>
+		</footer>
+		<a id="scrollToTop" onclick="scrolltop();"><i class="material-icons" style=" font-size:50px;">keyboard_arrow_up</i></a>
+		<script>
+			window.sr = ScrollReveal();
+			sr.reveal('h2', {
+				reset: false,
+				delay: 300,
+				distance: 0
+			});
+			sr.reveal('p', {
+				reset: false,
+				delay: 300
+			});
+			$(document).ready(function(){
+			$('#lista1').on('click', function () {
+				var text=$('#lista1').text();
+				if(text === "Pokaż więcej"){
+					$(this).html('Ukryj');
+				} else{
+					$(this).text('Pokaż więcej');
+			}
+			});
+			});
+		</script>
+		<script type="text/javascript" src="{% static 'scroll_opacity_script.js' %}"></script>
+		<script type="text/javascript" src="{% static 'scroll_to_script.js' %}"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
 </html>
