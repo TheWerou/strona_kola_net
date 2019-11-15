@@ -1,35 +1,16 @@
-﻿<!DOCTYPE html>
-<html lang="pl">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Grupa .NET Politechnika Koszalińska">
-		<meta name="keywords" content="Grupa .Net, Politechnika Koszalińska, Koło Naukowe">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" href="logo2.png">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-		<title>Grupa .NET</title>
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-		<script src="https://unpkg.com/scrollreveal"></script>
-		<script type="text/javascript" src="scroll_script.js"></script>
-	</head>
-	<body>
-		<nav class="navbar navbar-dark bg-menu">
-			<a class="navbar-brand" href="#">
-					<img src="logo.png" class="d-inline-block" height="40" alt="">
-			</a>
-			<a class="btn btn-primary ml-auto" href="#" role="button">Powrót</a>
-		</nav>
-		<main>
+﻿{% extends "base.html" %}
+{% load staticfiles i18n %}
+
+{% block content %}
+			<!-- 333333333333333333333333333333333333333333333333333333333 -->
+		{% if  object %}
 		<section class="one">
 			<div class="container">
 				<div class="row justify-content-center pt-3">
 					<div class="col-sm-6 col-md-4">
 						<figure>
-							<div class="photo"><img src="img_avatar.png" class="img-fluid photo" alt="image"></div>
-							<figcaption style="font-weight: bold;" class="pt-3">Zdjęcie</figcaption>
+							<div class="photo"><img src="/media/{{ object.zdj }}" class="img-fluid photo" alt="image"></div>
+							<figcaption class="pt-3">{{ object.imie }}</figcaption>
 						</figure>
 					</div>
 				</div>
@@ -39,45 +20,28 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Gravida dictum fusce ut placerat orci nulla pellentesque. Consequat interdum varius sit amet mattis vulputate enim. Nisl rhoncus mattis rhoncus urna. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Nec ullamcorper sit amet risus nullam eget felis eget. Tortor posuere ac ut consequat semper viverra. Ornare lectus sit amet est placerat in egestas. At risus viverra adipiscing at in. Tempus quam pellentesque nec nam aliquam sem et tortor consequat.</p>
 				</header>
 			</div>
+
 			<div class="container">
 				<h2 id="kontakt">LINKI</h2>
 				<div class="row justify-content-center mb-3">
 					<ul class="list-unstyled mb-0" style="width:100%;">
 						<li class="m-3">										
-							<a class="social-media-link-a" href="#"><div class="social-media-link"><i class="fab fa-github"></i> GitHub</div></a>
+							<a class="social-media-link-a" href="{{ object.git_hub }}"><div class="social-media-link"><i class="fab fa-github"></i> GitHub</div></a>
 						</li>
 						<li class="m-3">
-							<a class="social-media-link-a" href="#"><div class="social-media-link"><i class="fab fa-linkedin"></i> Linkedin</div></a>
+							<a class="social-media-link-a" href="{{ object.linkedin }}"><div class="social-media-link"><i class="fab fa-linkedin"></i> Linkedin</div></a>
 						</li>
 						<li class="m-3">
-							<a class="social-media-link-a" href="#"><div class="social-media-link"><i class="fab fa-facebook-square"></i> Facebook</div></a>
+							<a class="social-media-link-a" href="{{ object.facebook }}"><div class="social-media-link"><i class="fab fa-facebook-square"></i> Facebook</div></a>
 						</li>
 					</ul>
 				</div>
+
 			</div>
+
 		</section>
-		</main>
-		<footer>
-			<div class="footer-copyright text-center py-3">© 2019 Copyright:
-				<a href="#"> .Net</a>
-			</div>
-		</footer>
-		<a id="scrollToTop" onclick="scrolltop();"><i class="material-icons" style=" font-size:50px;">keyboard_arrow_up</i></a>
-		<script>
-			window.sr = ScrollReveal();
-			sr.reveal('h2', {
-				reset: false,
-				delay: 300,
-				distance: 0
-			});
-			sr.reveal('p', {
-				reset: false,
-				delay: 300
-			});
-		</script>
-		<script type="text/javascript" src="scroll_opacity_script.js"></script>
-		<script type="text/javascript" src="scroll_to_script.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	</body>
-</html>
+		{% endif %}
+			<!-- 333333333333333333333333333333333333333333333333333333333 -->
+
+{% endblock %}
+
