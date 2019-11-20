@@ -1,10 +1,17 @@
 ﻿{% extends "base.html" %}
 {% load staticfiles i18n %}
-
+{% block bootstrap4_before_content %}
+{% endblock %}
 {% block content %}
-			<!-- 333333333333333333333333333333333333333333333333333333333 -->
 		{% if  object %}
-		<section class="one">
+
+		<nav class="navbar navbar-dark bg-menu" style="margin-top: -24px;">
+			<a class="navbar-brand" href="#">
+					<img src="{% static 'img/logo.png' %}" class="d-inline-block" height="40" alt="">
+			</a>
+			<a class="btn btn-primary ml-auto" href="{% url 'index' %}" role="button">Powrót</a>
+		</nav>
+		<section class="one" style="color:white;">
 			<div class="container">
 				<div class="row justify-content-center pt-3">
 					<div class="col-sm-6 col-md-4">

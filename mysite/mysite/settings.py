@@ -137,5 +137,11 @@ STATIC_ROOT = os.path.join(os.path.dirname(__file__), '../static/').replace('\\'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mysite/media')
 
-
+EMAIL_USE_TSL = False
+EMAIL_USE_SSL = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'pkkologrupanet@gmail.com'
+EMAIL_HOST_PASSWORD = 'ToKontoNiePosi@da365'
+EMAIL_PORT = 465
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 

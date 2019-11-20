@@ -8,7 +8,7 @@
 				<div class="container mb-4">
 					<header>
 						<h2 id="o_nas">O NAS</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Gravida dictum fusce ut placerat orci nulla pellentesque. Consequat interdum varius sit amet mattis vulputate enim. Nisl rhoncus mattis rhoncus urna. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Nec ullamcorper sit amet risus nullam eget felis eget. Tortor posuere ac ut consequat semper viverra. Ornare lectus sit amet est placerat in egestas. At risus viverra adipiscing at in. Tempus quam pellentesque nec nam aliquam sem et tortor consequat.</p>
+						<p style="font-size:20px">Energiczni oraz pełni pasji członkowie koła, nastawieni na rozwój swoich umiejętności, zainteresowań, entuzjaści nowych rozwiązań i technologii, nastawieni na realizację wielu ciekawych pomysłów</p>
 						<hr>
 					</header>
 				</div>
@@ -73,18 +73,18 @@
 					<div class="row pb-3 pt-3">
 						<div class="col-md-9 mb-md-0 mb-5">
 							<form>
-								<div class="row">
+								<!--<div class="row">
 									<div class="col-md-6">
 										<div class="md-form mb-0">
-											<!--<input type="text" id="contact-name" class="form-control" aria-label="Imię" placeholder="Imię">
-											 -->
+											<input type="text" id="contact-name" class="form-control" aria-label="Imię" placeholder="Imię">
+
 											{{ email.imie }}
 											<label for="contact-name" class="">Imię</label>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="md-form mb-0">
-											<!--<input type="text" id="contact-surname" class="form-control" aria-label="Nazwisko" placeholder="Nazwisko">-->
+											<input type="text" id="contact-surname" class="form-control" aria-label="Nazwisko" placeholder="Nazwisko">
 											{{ email.nazwisko }}
 											<label for="contact-surname" class="">Nazwisko</label>
 										</div>
@@ -93,9 +93,18 @@
 								<div class="row">
 									<div class="col-md-12">
 										<div class="md-form mb-0">
-											<!--<input type="text" id="contact-email" class="form-control" aria-label="Email" placeholder="Email">-->
+											<input type="text" id="contact-email" class="form-control" aria-label="Email" placeholder="Email">
 											{{ email.email }}
 											<label for="contact-email" class="">Email</label>
+										</div>
+									</div>
+								</div>-->
+								<div class="row">
+									<div class="col-md-12">
+										<div class="md-form">
+											<!--<textarea id="contact-message" class="form-control md-textarea" rows="3" aria-label="Treść Wiadomości" placeholder="Treść Wiadomości"></textarea>-->
+											{{ email.temat }}
+											<label for="contact-subject">Temat </label>
 										</div>
 									</div>
 								</div>
@@ -117,7 +126,7 @@
 							<ul class="list-unstyled mb-0">
 								<li>
 									<i class="material-icons">place</i>
-									<p>Koszalin</p>
+									<p>Koszalin, Politechnika Koszalinska </p>
 								</li>
 								<li>
 									<i class="material-icons">call</i>

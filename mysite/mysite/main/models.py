@@ -22,10 +22,11 @@ class Comunication(models.Model):
     imie = models.CharField(max_length=200)
     nazwisko = models.CharField(max_length=200)
     email = models.EmailField()
+    temat = models.CharField(max_length=100, default=None)
     tekst = models.TextField(max_length=1000)
 
     def __str__(self):
-        return self.email
+        return self.temat
 
     class Meta:
         app_label = "main"
