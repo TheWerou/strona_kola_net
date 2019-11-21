@@ -32,16 +32,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
     'django.contrib.auth',
     'django.contrib.admin',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mysite.main.apps.MainConfig',
     'locale',
     'bootstrap4',
-    'mysite.main.apps',
-
 ]
 
 MIDDLEWARE = [
@@ -117,7 +117,7 @@ LANGUAGES = (
     ('en', 'English'),
 )
 
-LOCALE_PATHS = ( os.path.join(BASE_DIR, 'locale'), )
+LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'), )
 
 TIME_ZONE = 'UTC'
 
@@ -133,3 +133,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(os.path.dirname(__file__), '../static/').replace('\\','/')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'mysite/media')
+
+EMAIL_USE_TSL = False
+EMAIL_USE_SSL = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'pkkologrupanet@gmail.com'
+EMAIL_HOST_PASSWORD = 'ToKontoNiePosi@da365'
+EMAIL_PORT = 465
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
