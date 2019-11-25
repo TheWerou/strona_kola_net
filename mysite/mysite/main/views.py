@@ -24,22 +24,22 @@ class IndexView(TemplateView):
 
             if context['email'].is_valid():
                 context['email'].save()
+
                 subject = request.GET.get('temat')
                 text = request.GET.get('tekst')
                 email = request.GET.get('email')
 
                 send_mail(subject=subject, message=text, from_email=settings.EMAIL_HOST_USER,
-                          recipient_list=['sosape5375@4xmail.net'], fail_silently=False)
+                          recipient_list=['ilx86534@zzrgg.com'], fail_silently=False)
 
                 return redirect('/')
 
-        return render(request, self.template_name , context)
+        return render(request, self.template_name, context)
 
 
 class PersolnalView(DetailView):
     template_name = "osoba.html"
     model = UserNet
-
 
 
 index_view = IndexView.as_view()

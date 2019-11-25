@@ -3,15 +3,6 @@ from .models import Comunication
 
 
 class EmailForm(forms.ModelForm):
-    imie = forms.CharField(max_length=200, widget=forms.TextInput(
-        attrs={'class': 'form-control', 'id': 'contact-name','arialabel': 'Imię', 'placeholder': 'Imię'
-                                                                         }))
-    nazwisko = forms.CharField(max_length=200, widget=forms.TextInput(
-        attrs={'class': 'form-control', 'id': 'contact-surname"','arialabel': 'Nazwisko', 'placeholder': 'Nazwisko'
-                                                                         }))
-    email = forms.EmailField(widget=forms.TextInput(
-        attrs={'class': 'form-control', 'id': 'contact-email','arialabel': 'Email', 'placeholder': 'Email'
-                                                                         }))
     temat = forms.CharField(required=True, widget=forms.TextInput(
         attrs={'class': 'form-control', 'id': 'contact-subject', 'arialabel': 'Temat', 'placeholder': 'Temat'
                }))
@@ -22,5 +13,5 @@ class EmailForm(forms.ModelForm):
 
     class Meta:
         model = Comunication
-        fields = ['imie', 'nazwisko', 'email', 'temat', 'tekst', ]
+        fields = ['temat', 'tekst',]
 
